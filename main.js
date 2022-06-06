@@ -3,7 +3,7 @@ const noBtn = document.getElementById('no');
 const main = document.getElementById('main');
 const ans = document.getElementById('reveal');
 
-noBtn.onclick = function () {
+noBtn.onmouseover = function () {
     noBtn.style.visibility = 'hidden';
 };
 
